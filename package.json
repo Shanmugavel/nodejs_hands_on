@@ -4,6 +4,8 @@
   "description": "Shan's entry into nodejs world",
   "main": "1.js",
   "dependencies": {
+    "asynquence": "^0.8.2",
+    "asynquence-contrib": "^0.11.0",
     "minimist": "^1.2.0"
   },
   "devDependencies": {},
