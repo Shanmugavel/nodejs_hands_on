@@ -1,0 +1,15 @@
+{
+  "name": "node_handson",
+  "version": "1.0.0",
+  "description": "Shan's entry into nodejs world",
+  "main": "1.js",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shanmugavel Sundaramoorthy",
+  "license": "ISC"
+}
