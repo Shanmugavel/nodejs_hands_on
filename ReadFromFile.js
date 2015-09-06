@@ -10,6 +10,9 @@ function readFileContentsSync(fileName) {
 
 function readFileContentsAsync(fileName) {
   fs.readFile(dataDir+fileName, options, function(err, data) {
+    if(err) {
+      console.error('Error : ' + err);
+    }
     console.log(data);
   });
 }
