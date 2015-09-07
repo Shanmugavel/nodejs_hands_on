@@ -7,7 +7,7 @@ require('asynquence-contrib'); //no need to store in variable as it doesn't retu
 var options  = { "encoding" : "utf-8"}, dataDir = "./data/";
 
 function readContentsAsynchronously(fileName) {
-  var seq = new ASQ();
+  var seq = ASQ();
   fs.readFile(dataDir+fileName, options, seq.errfcb());
   return seq;
 }

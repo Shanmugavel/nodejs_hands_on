@@ -12,6 +12,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shanmugavel Sundaramoorthy",
+  "author": "Shanmugavel Sundaramoorthy <shanmugavel.rs@gmail.com>",
   "license": "ISC"
 }
